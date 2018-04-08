@@ -14,7 +14,7 @@ let xpCounter = 0;
 const add = (a, b) => a + b;
 
 lineReader.on('line', (line) => {
-  const parsedLevelExpressions = /LV\s?(\d+)/g.exec(line.toUpperCase());
+  const parsedLevelExpressions = /LVL?\s?(\d+)/g.exec(line.toUpperCase());
   const parsedXPExpressions = /(\d+)\s?XP/g.exec(line.toUpperCase());
   if (parsedLevelExpressions && parsedLevelExpressions[1]) {
     parsedLevelNumbers[levelCounter++] = parseInt(parsedLevelExpressions[1]);
