@@ -7,8 +7,8 @@
 * Execute the code `node ./calculator.js [filename]` without the square brackets where **filename** is the text file that you would like to parse for automated calculation for the abilities.
 
 ## Calculation expectations
-* Ensure that all abilities have the level listed next to the ability (LV[num],LV [num], LVL[num], and LVL [num] are all currently working right now).
-* Also make sure to put down the XP cost for each ability, so that the program knows what to do with the calculation (XP[num] or XP [num] are both fine).
+* Ensure that all abilities have the level listed next to the ability (`LV[num]`, `LV [num]`, `LVL[num]`, and `LVL [num]` are all currently working right now).
+* Also make sure to put down the XP cost for each ability, so that the program knows what to do with the calculation (`XP[num]` or `XP [num]` are both fine).
 
 ## Expected output
 * You will see a list of numbers for each ability, designated in the form of an array.
